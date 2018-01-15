@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Units]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[Caption] NVARCHAR(50) NOT NULL,
+	[Units_Group_Id] INT NOT NULL,
+	[ThisQua] INT NOT NULL DEFAULT 1,
+	[MainQua] INT NOT NULL, 
+    [Precision] TINYINT NOT NULL DEFAULT 0
+)
